@@ -1,0 +1,23 @@
+{
+    "name": "gymrats/project",
+    "description": "Proyecto para la gestión de un gimnasio, membresias, usuarios y productos. Así como la gestión de citas de un consultorio dentro del mismo gimnasio de un nutriólogo. Desarrollado con PHP 8, MVC, SQL, BEM, SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "gymrats"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/phpdotenv": "^5.4",
+        "intervention/image": "^2.7"
+    }
+}
